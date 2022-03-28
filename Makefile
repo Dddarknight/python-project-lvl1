@@ -14,3 +14,6 @@ publish: #публикация
 
 package-install: #пакет
 	python3 -m pip install dist/hexlet_code-0.1.0-py3-none-any.whl
+
+make lint: #запуск flake8
+	poetry run flake8 brain_games
