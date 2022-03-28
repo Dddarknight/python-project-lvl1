@@ -13,4 +13,4 @@ jobs:
 
     steps:
     - name: linter_make
-      run: make lint
+      run: poetry run flake8 brain_games
