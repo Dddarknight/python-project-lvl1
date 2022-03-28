@@ -12,5 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Install dependencies
+      run: |
+          pip install poetry
+          make install
     - name: linter_make
       run: poetry run flake8 brain_games
