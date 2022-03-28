@@ -4,5 +4,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: make lint
-      - name: python-project-lvl1
+      - name: Run linter
+        run: |
+          make lint
