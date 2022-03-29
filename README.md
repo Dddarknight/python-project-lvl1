@@ -4,3 +4,4 @@
 ![Linter](https://github.com/Dddarknight/python-project-lvl1/actions/workflows/linter.yml/badge.svg)
 [![asciinema_even](https://github.com/Dddarknight/python-project-lvl1/actions/workflows/asciinema/badge.svg)](https://asciinema.org/a/Kh2DfWlUbbpyi83FZNFfvGFNI)
 [![asciinema_calc](https://github.com/Dddarknight/python-project-lvl1/actions/workflows/asciinema/badge.svg)](https://asciinema.org/a/XqcNrOVEHjUVDqIRMKUlLq5VV)
+[![asciinema_gcd](https://github.com/Dddarknight/python-project-lvl1/actions/workflows/asciinema/badge.svg)](https://asciinema.org/a/p77p7vBP4GMhtVJZaYw1tVTYe)
