@@ -23,3 +23,6 @@ brain-even: #запуск четного
 
 brain-calc: #запуск калькулятора
 	poetry run brain-calc
+
+brain-gcd: #запуск НОД
+	poetry run brain-gcd
