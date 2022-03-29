@@ -2,8 +2,8 @@ from brain_games.games import game
 
 
 def main():
-    print('brain-even!' + '\n' + 'Welcome to the Brain Games!')
-    game('even')
+    print('brain-calc!' + '\n' + 'Welcome to the Brain Games!')
+    game('calc')
 
 
 if __name__ == '__main__':

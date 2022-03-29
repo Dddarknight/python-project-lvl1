@@ -20,3 +20,6 @@ make lint: #запуск flake8
 
 brain-even: #запуск четного
 	poetry run brain-even
+
+brain-calc: #запуск калькулятора
+	poetry run brain-calc
