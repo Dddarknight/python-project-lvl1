@@ -10,6 +10,8 @@ def question_result(game_name):
         return gcd()
     elif game_name == 'progression':
         return progression()
+    elif game_name == 'prime':
+        return prime()
 
 
 def even():
@@ -71,4 +73,16 @@ def progression():
             pr_str = pr_str + ' ' + str(next)
         i = i + 1
     result_str = pr_str[:miss_begin] + '..' + pr_str[miss_end + 1:]
+    return(result_str, str(result))
+
+
+def prime():
+    number = randint(1, 1000)
+    i = number // 2
+    result = 'yes'
+    result_str = str(number)
+    while i > 1:
+        if number % i == 0:
+            result = 'no'
+        i = i - 1
     return(result_str, str(result))

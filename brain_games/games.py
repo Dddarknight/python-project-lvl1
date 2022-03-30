@@ -12,6 +12,8 @@ def first_question(game_name):
         print('Find the greatest common divisor of given numbers.')
     elif game_name == 'progression':
         print('What number is missing in the progression?')
+    elif game_name == 'prime':
+        print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
 
 def game(game_name):
@@ -22,10 +24,6 @@ def game(game_name):
         (question, result) = question_result(game_name)
         print('Question: ' + str(question))
         answer = prompt.string('Your answer: ')
-        if (game_name == 'even') and (answer != 'no') and (answer != 'yes'):
-            print(str(answer) + " is wrong answer ;(.")
-            print("Let's try again, " + name + "!")
-            break
         if answer != result:
             text = ' is wrong answer ;(. Correct answer was '
             print(f'{answer}{text}{result}')

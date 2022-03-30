@@ -29,3 +29,6 @@ brain-gcd: #запуск НОД
 
 brain-progression: #запуск прогрессий
 	poetry run brain-progression
+
+brain-prime: #запуск простого числа
+	poetry run brain-prime
