@@ -32,5 +32,5 @@ def game(game_name):
         else:
             print('Correct')
             if i == 3:
-                print('Congratulations, ' + name)
+                print('Congratulations, ' + name + '!')
             i = i + 1
