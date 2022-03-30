@@ -26,3 +26,6 @@ brain-calc: #запуск калькулятора
 
 brain-gcd: #запуск НОД
 	poetry run brain-gcd
+
+brain-progression: #запуск прогрессий
+	poetry run brain-progression
