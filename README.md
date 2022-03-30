@@ -6,4 +6,4 @@
 [![asciinema_calc](https://github.com/Dddarknight/python-project-lvl1/actions/workflows/asciinema/badge.svg)](https://asciinema.org/a/XqcNrOVEHjUVDqIRMKUlLq5VV)
 [![asciinema_gcd](https://github.com/Dddarknight/python-project-lvl1/actions/workflows/asciinema/badge.svg)](https://asciinema.org/a/p77p7vBP4GMhtVJZaYw1tVTYe)
 [![asciinema_progr](https://github.com/Dddarknight/python-project-lvl1/actions/workflows/asciinema/badge.svg)](https://asciinema.org/a/BX8KtcD5rEGKpJcKp5WNA0tOk)
-[![asciinema_progr](https://github.com/Dddarknight/python-project-lvl1/actions/workflows/asciinema/badge.svg)](https://asciinema.org/a/SSMOB4nOZic4M16mjANjbbKNM)
+[![asciinema_prime](https://github.com/Dddarknight/python-project-lvl1/actions/workflows/asciinema/badge.svg)](https://asciinema.org/a/SSMOB4nOZic4M16mjANjbbKNM)
