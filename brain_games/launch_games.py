@@ -1,7 +1,11 @@
 import prompt
+from brain_games.cli import welcome_user
 
 
-def launch_game(func_game, name):
+def launch_game(func_game, question):
+    print('Welcome to the Brain Games!')
+    name = welcome_user()
+    print(question)
     i = 1
     while i <= 3:
         (question, result) = func_game()
@@ -15,5 +19,5 @@ def launch_game(func_game, name):
         else:
             print('Correct')
         i = i + 1
-    if i == 3:
+    if i == 4:
         print('Congratulations, ' + name + '!')

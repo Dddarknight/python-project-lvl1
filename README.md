@@ -18,6 +18,7 @@ ____
 In each game you have to give 3 right answers to become a winner, otherwise the game ends. 
 You can play any of the following games:
 | game name | description |
+|----------|---------|
 | brain-calc | You need to make calculations with 2 given numbers|
 | brain-even | You need to answer whether the given number is even or not|
 | brain-gcd | You need to find the greatest common divisor of given numbers|
