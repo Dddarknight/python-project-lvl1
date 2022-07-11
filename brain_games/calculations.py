@@ -1,19 +1,6 @@
 from random import randint
 
 
-def question_result(game_name):
-    if game_name == 'even':
-        return even()
-    elif game_name == 'calc':
-        return calc()
-    elif game_name == 'gcd':
-        return gcd()
-    elif game_name == 'progression':
-        return progression()
-    elif game_name == 'prime':
-        return prime()
-
-
 def even():
     number = randint(1, 1000)
     if number % 2 == 0:

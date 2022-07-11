@@ -1,9 +1,15 @@
-from brain_games.games import game
+#!/usr/bin/env python
+
+from brain_games.launch_games import launch_game
+from brain_games.calculations import gcd
+from brain_games.cli import welcome_user
 
 
 def main():
     print('brain-gcd!' + '\n' + 'Welcome to the Brain Games!')
-    game('gcd')
+    name = welcome_user()
+    print('Find the greatest common divisor of given numbers.')
+    launch_game(gcd, name)
 
 
 if __name__ == '__main__':
