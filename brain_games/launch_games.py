@@ -14,6 +14,6 @@ def launch_game(func_game, name):
             break
         else:
             print('Correct')
-            if i == 3:
-                print('Congratulations, ' + name + '!')
-            i = i + 1
+        if i == 3:
+            print('Congratulations, ' + name + '!')
+        i = i + 1
