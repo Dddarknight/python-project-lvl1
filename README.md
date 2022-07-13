@@ -28,6 +28,10 @@ You can play any of the following games:
 | brain-prime | You need to answer whether the given number is prime or not|
 | brain-progression | You need to find the missing number in the progression|
 
+## Installation
+```
+$ pip install hexlet-code-dddarknight==0.1.0
+```
 
 ## Usage
 ```
@@ -39,7 +43,7 @@ $ brain-progression
 ```
 
 ### Asciinema record:
-[![asciinema](https://asciinema.org/a/AWkvbzEsH0p2ZuLY9aJPI34hn.svg)](https://asciinema.org/a/AWkvbzEsH0p2ZuLY9aJPI34hn)
+[![asciinema](https://asciinema.org/a/uESMOk94NHGA705nEkQGoNAQh)](https://asciinema.org/a/uESMOk94NHGA705nEkQGoNAQh)
 
 ## License
 [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
