@@ -43,7 +43,7 @@ $ brain-progression
 ```
 
 ### Asciinema record:
-[![asciinema](https://asciinema.org/a/uESMOk94NHGA705nEkQGoNAQh)](https://asciinema.org/a/uESMOk94NHGA705nEkQGoNAQh)
+[![asciinema](https://asciinema.org/a/uESMOk94NHGA705nEkQGoNAQh.svg)](https://asciinema.org/a/uESMOk94NHGA705nEkQGoNAQh)
 
 ## License
 [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
