@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "hexlet-code-Dddarknight"
+name = "hexlet-code"
 version = "0.1.0"
 description = "Provides oppotunity to play games with mathematical calculations. In version 0.1.0 there are 5 games: calculations of two numbers, identification of an even number, finding the greatest common divisor of given numbers, identification of a prime number, finding missing number in the progression."
 authors = ["Dddarknight <9801677@gmail.com>"]
