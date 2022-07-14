@@ -1,8 +1,10 @@
 from random import randint
 
 
+DESCRIPTION_CALC = 'What is the result of the expression?'
+
+
 def calculate_numbers():
-    description = 'What is the result of the expression?'
     number1 = randint(1, 100)
     number2 = randint(1, 100)
     choice = randint(1, 3)
@@ -17,4 +19,4 @@ def calculate_numbers():
     else:
         result = number1 * number2
         expression_str = f'{number1} * {number2}'
-    return (description, expression_str, str(result))
+    return (expression_str, str(result))

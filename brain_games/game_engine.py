@@ -2,22 +2,24 @@ import prompt
 from brain_games.cli import welcome_user
 
 
-def start_game(calculate_result):
+MAX_ATTEMPTS_COUNT = 3
+
+
+def start_game(calculate_result,
+               game_description,
+               max_attempts_count=MAX_ATTEMPTS_COUNT):
     print('Welcome to the Brain Games!')
     name = welcome_user()
+    print(game_description)
     attempt_number = 1
-    max_attempts = 3
-    while attempt_number <= max_attempts:
-        (game_description, question, result) = calculate_result()
-        if attempt_number == 1:
-            print(game_description)
+    while attempt_number <= max_attempts_count:
+        (question, result) = calculate_result()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer != result:
-            print(f'{answer} is wrong answer ;(. Correct answer was {result}'
+            print(f'{answer} is wrong answer ;(. Correct answer was {result}\n'
                   f"Let's try again, {name}!")
             return
-        else:
-            print('Correct')
+        print('Correct')
         attempt_number += 1
     print(f'Congratulations, {name}!')

@@ -1,9 +1,11 @@
 from random import randint
 
 
+DESCRIPTION_PRIME = 'Answer "yes" if given number \
+                    is prime. Otherwise answer "no".'
+
+
 def calculate_prime():
-    description = (
-        'Answer "yes" if given number is prime. Otherwise answer "no".')
     number = randint(1, 1000)
     i = number // 2
     result = 'yes'
@@ -12,4 +14,4 @@ def calculate_prime():
         if number % i == 0:
             result = 'no'
         i = i - 1
-    return(description, number_str, str(result))
+    return (number_str, str(result))

@@ -1,8 +1,10 @@
 from random import randint
 
 
+DESCRIPTION_GCD = 'Find the greatest common divisor of given numbers.'
+
+
 def calculate_gcd():
-    description = 'Find the greatest common divisor of given numbers.'
     number1 = randint(1, 100)
     number2 = randint(1, 100)
     numbers_str = f'{number1} {number2}'
@@ -13,4 +15,4 @@ def calculate_gcd():
             result = minimum
             break
         minimum -= 1
-    return(description, numbers_str, str(result))
+    return (numbers_str, str(result))

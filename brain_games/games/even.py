@@ -1,11 +1,14 @@
 from random import randint
 
 
+DESCRIPTION_EVEN = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+
+def is_even(number):
+    return number % 2 == 0
+
+
 def calculate_even():
-    description = 'Answer "yes" if the number is even, otherwise answer "no".'
     number = randint(1, 1000)
-    if number % 2 == 0:
-        result = 'yes'
-    else:
-        result = 'no'
-    return (description, str(number), result)
+    result = 'yes' if is_even(number) else 'no'
+    return (str(number), result)
