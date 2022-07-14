@@ -30,7 +30,9 @@ You can play any of the following games:
 
 ## Installation
 ```
-$ pip install hexlet-code-dddarknight==0.1.0
+$ git clone git@github.com:Dddarknight/python-project-lvl1.git
+$ cd python-project-lvl1
+$ python3 -m pip install dist/hexlet_code-0.1.0-py3-none-any.whl
 ```
 
 ## Usage
