@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
 from brain_games.game_engine import start_game
-from brain_games.games.gcd import calculate_gcd, DESCRIPTION_GCD
+from brain_games.games.gcd import generate_question_answer_gcd, DESCRIPTION
 
 
 def main():
-    start_game(calculate_gcd, DESCRIPTION_GCD)
+    start_game(generate_question_answer_gcd, DESCRIPTION)
 
 
 if __name__ == '__main__':

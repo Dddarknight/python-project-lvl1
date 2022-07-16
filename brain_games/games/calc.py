@@ -1,22 +1,25 @@
 from random import randint
+import operator
 
 
-DESCRIPTION_CALC = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
+CHOICE = ['+', '-', '*']
 
 
-def calculate_numbers():
+def calculate_numbers(number1, number2, operator_choice):
+    get_operator = {
+        '+': operator.add,
+        '-': operator.sub,
+        '*': operator.mul
+    }.get
+    chosen_operator = get_operator(operator_choice)
+    return chosen_operator(number1, number2)
+
+
+def generate_question_answer_calc():
     number1 = randint(1, 100)
     number2 = randint(1, 100)
-    choice = randint(1, 3)
-    choice_plus = 1
-    choice_minus = 2
-    if choice == choice_plus:
-        result = number1 + number2
-        expression_str = f'{number1} + {number2}'
-    elif choice == choice_minus:
-        result = number1 - number2
-        expression_str = f'{number1} - {number2}'
-    else:
-        result = number1 * number2
-        expression_str = f'{number1} * {number2}'
-    return (expression_str, str(result))
+    operator_choice = CHOICE[randint(0, len(CHOICE) - 1)]
+    question = f'{number1} {operator_choice} {number2}'
+    answer = str(calculate_numbers(number1, number2, operator_choice))
+    return question, answer

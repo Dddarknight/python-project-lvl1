@@ -13,11 +13,12 @@ def start_game(calculate_result,
     print(game_description)
     attempt_number = 1
     while attempt_number <= max_attempts_count:
-        (question, result) = calculate_result()
+        (question, expected_answer) = calculate_result()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
-        if answer != result:
-            print(f'{answer} is wrong answer ;(. Correct answer was {result}\n'
+        if answer != expected_answer:
+            print(f'{answer} is wrong answer ;(. Correct answer was '
+                  f'{expected_answer}\n'
                   f"Let's try again, {name}!")
             return
         print('Correct')
