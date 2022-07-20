@@ -5,10 +5,10 @@ import operator
 DESCRIPTION = 'What is the result of the expression?'
 OPERATORS = ['+', '-', '*']
 MAP_SIGN_TO_OPERATION = {
-        '+': operator.add,
-        '-': operator.sub,
-        '*': operator.mul
-    }
+    '+': operator.add,
+    '-': operator.sub,
+    '*': operator.mul
+}
 
 
 def calculate(number1, number2, chosen_operator):
