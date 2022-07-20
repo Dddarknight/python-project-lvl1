@@ -8,7 +8,7 @@ def is_even(number):
     return number % 2 == 0
 
 
-def generate_question_answer_even():
+def generate_round():
     number = randint(1, 1000)
     question = str(number)
     answer = 'yes' if is_even(number) else 'no'

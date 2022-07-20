@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 
-from brain_games.game_engine import start_game
-from brain_games.games.progression import generate_question_answer_progression
-from brain_games.games.progression import DESCRIPTION
+from brain_games.engine import start
+import brain_games.games.progression as game
 
 
 def main():
-    start_game(generate_question_answer_progression, DESCRIPTION)
+    start(game)
 
 
 if __name__ == '__main__':

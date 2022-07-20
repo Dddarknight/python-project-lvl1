@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-from brain_games.game_engine import start_game
-from brain_games.games.prime import generate_question_answer_prime, DESCRIPTION
+from brain_games.engine import start
+import brain_games.games.prime as game
 
 
 def main():
-    start_game(generate_question_answer_prime, DESCRIPTION)
+    start(game)
 
 
 if __name__ == '__main__':
