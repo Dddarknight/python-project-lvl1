@@ -4,7 +4,7 @@ import operator
 
 DESCRIPTION = 'What is the result of the expression?'
 OPERATORS = ['+', '-', '*']
-MAP_SIGN_TO_OPERATION = {
+MAP_OPERATOR_TO_OPERATION = {
     '+': operator.add,
     '-': operator.sub,
     '*': operator.mul
@@ -12,7 +12,7 @@ MAP_SIGN_TO_OPERATION = {
 
 
 def calculate(number1, number2, chosen_operator):
-    chosen_operation = MAP_SIGN_TO_OPERATION[chosen_operator]
+    chosen_operation = MAP_OPERATOR_TO_OPERATION[chosen_operator]
     return chosen_operation(number1, number2)
 
 
